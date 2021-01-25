@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  A: A closure is the the function that wraps around the function in question on the outermost nested layer. This function creates the context for all nested functions inside of it.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +65,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  A: personalDice(name){...} it returns a function
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  A: The first time and second time will have different values most of the time;  The name; newRoll
 c. What is the lexical scope of `newRoll`? 
-
+  A: the lexical scope of newRoll is the anonymous function inside of personalDice() 
 
 ### Task 3 - Stretch Goals
 
